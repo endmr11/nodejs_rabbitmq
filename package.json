@@ -1,0 +1,19 @@
+{
+  "name": "node_rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "publisher": "nodemon publisher.js",
+    "consumer": "nodemon consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
